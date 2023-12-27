@@ -1,7 +1,7 @@
 {
   "name": "superexpressapp-auth",
   "version": "1.0.0",
-  "description": "Authentication app",
+  "description": "Superexpress Authentication Template",
   "main": "index.js",
   "type": "module",
   "scripts": {

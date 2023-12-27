@@ -1,11 +1,11 @@
 import express from 'express';
 import { bootstrap, server, logger } from 'superexpress';
-import { router } from './index.js'
+import authApp from './index.js'
 
 const app = express();
 const port = process.env.APP_PORT || 3000;
 
-app.use(router)
+app.use(authApp)
 
 // Error-handling middleware
 app.use(function(req, res, next) {

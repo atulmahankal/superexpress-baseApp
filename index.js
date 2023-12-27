@@ -1,7 +1,9 @@
 import express from 'express';
 
-export const router = express();
+const authApp = express();
 
-router.get('/login', (req, res, next) => {
+authApp.get('/login', (req, res, next) => {
 	res.send('login form comes here!');
 })
+
+export default authApp;
