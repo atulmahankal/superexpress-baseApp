@@ -1,12 +1,11 @@
 import express from 'express';
 import { bootstrap, server, logger } from 'superexpress';
+import { router } from './index.js'
 
 const app = express();
 const port = process.env.APP_PORT || 3000;
 
-app.get('/', (req, res, next) => {
-	res.send('hello world!');
-})
+app.use(router)
 
 // Error-handling middleware
 app.use(function(req, res, next) {
