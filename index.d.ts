@@ -1,5 +1,5 @@
-import * as express from 'express';
+import { Express } from 'express';
 
-declare const authApp: express.Express;
+declare function authApp(app: Express): void;
 
 export default authApp;
