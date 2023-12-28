@@ -8,4 +8,4 @@ authApp.get('/login', (req, res, next) => {
 	res.send('login form comes here!');
 })
 
-module.exports = appRouter;
+module.exports = authApp;
