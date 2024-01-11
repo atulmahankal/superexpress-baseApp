@@ -1,7 +1,7 @@
 {
-  "name": "superexpressapp-auth",
+  "name": "expressbooster-auth",
   "version": "1.0.0",
-  "description": "Superexpress Authentication Template",
+  "description": "Ready to use expressbooster Authentication Template",
   "main": "index.js",
   "type": "commonjs",
   "exports": {
